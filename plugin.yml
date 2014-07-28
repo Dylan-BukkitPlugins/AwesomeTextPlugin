@@ -1,0 +1,7 @@
+name: AwesomeText
+main: com.gmail.dylanpdx.AwesomeText.AwesomeText
+version: 1.0
+commands:
+  AwesomeText:
+    description: Plugin Help
+    usage: "Usage: '/AwesomeText' to get help on plugin"
