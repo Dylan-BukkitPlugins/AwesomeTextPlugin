@@ -208,10 +208,10 @@ public final class AwesomeText extends JavaPlugin implements Listener {
     @SuppressWarnings("deprecation")
 	@Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-    	if (cmd.getName().equalsIgnoreCase("AwesomeText")) {
+    	if (cmd.getName().equalsIgnoreCase("AwesomeText") || sender.hasPermission("AwesomeText.talk")) {
     		if (args.length == 0) {
     			sender.sendMessage(ChatColor.RED + "Arguments required: <bubble|russ|cool|bat> text");
-    			return false;
+    			return true;
     		}else{
     			String fulltext = "";
     			for (int i = 1; i < args.length;i++){
