@@ -227,6 +227,14 @@ public final class AwesomeText extends JavaPlugin implements Listener {
     				String fina = Converter.AwesomeIfy(fulltext, "russ");
     				Bukkit.getServer().getPlayer(sender.getName()).chat(fina);
     			}
+    			if (args[0].equalsIgnoreCase("cool")){
+    				String fina = Converter.AwesomeIfy(fulltext, "cool");
+    				Bukkit.getServer().getPlayer(sender.getName()).chat(fina);
+    			}
+    			if (args[0].equalsIgnoreCase("bat")){
+    				String fina = Converter.AwesomeIfy(fulltext, "bat");
+    				Bukkit.getServer().getPlayer(sender.getName()).chat(fina);
+    			}
     			return true;
     			
     		}
