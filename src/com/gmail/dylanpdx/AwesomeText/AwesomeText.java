@@ -208,7 +208,7 @@ public final class AwesomeText extends JavaPlugin implements Listener {
     @SuppressWarnings("deprecation")
 	@Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-    	if (cmd.getName().equalsIgnoreCase("AwesomeText")) { // If the player typed /basic then do the following...
+    	if (cmd.getName().equalsIgnoreCase("AwesomeText")) {
     		if (args.length == 0) {
     			sender.sendMessage(ChatColor.RED + "Arguments required: <bubble|russ|cool|bat> text");
     			return false;

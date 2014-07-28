@@ -9,7 +9,6 @@ public class AwesomeTalkCommands implements CommandExecutor {
 	boolean Success = false;
 	
 	public AwesomeTalkCommands(AwesomeText AwesomeText){
-		
 	
 	}
 	
